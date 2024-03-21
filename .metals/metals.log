@@ -2437,3 +2437,1044 @@ java.nio.file.NoSuchFileException: /Users/jakubciszewski/studia/sem4/scala/test.
 2024.03.07 13:27:54 INFO  shutting down Metals
 2024.03.07 13:27:54 INFO  Shut down connection with build server.
 2024.03.07 13:27:54 INFO  Exiting server
+2024.03.21 11:48:28 INFO  Started: Metals version 1.2.2 in folders '/Users/jakubciszewski/studia/sem4/scala' for client Visual Studio Code 1.87.2.
+11:48:28.875 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+11:48:28.876 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+11:48:28.876 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+11:48:28.877 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+11:48:28.877 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca ...
+11:48:28.877 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+11:48:28.877 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+11:48:28.877 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca ...
+11:48:28.878 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/Users/jakubciszewski/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+11:48:28.880 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+11:48:28.880 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+11:48:28.880 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+11:48:28.880 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+11:48:28.880 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+11:48:28.881 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+11:48:28.884 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:48:28.884 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+11:48:28.884 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+11:48:28.884 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+11:48:28.884 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+11:48:28.942 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/Users/jakubciszewski/studia/sem4/scala/.metals/metals (H2 2.2)
+11:48:28.943 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+11:48:28.943 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+11:48:28.943 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+11:48:28.943 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+11:48:28.946 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+11:48:28.946 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+11:48:28.946 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:48:28.952 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+11:48:28.955 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:48:28.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:48:28.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:48:28.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:48:28.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:48:28.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:48:28.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+11:48:28.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+11:48:28.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+11:48:28.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+11:48:28.959 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+11:48:28.968 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.014s)
+11:48:28.969 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+11:48:28.971 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+11:48:28.973 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+11:48:28.982 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 34 of 104M
+2024.03.21 11:48:29 WARN  No build session currently active to reload.
+2024.03.21 11:48:29 INFO  Attempting to connect to the build server...
+2024.03.21 11:48:29 INFO  Running BSP server List(/Users/jakubciszewski/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/jakubciszewski/studia/sem4/scala/.scala-build/ide-options-v2.json, /Users/jakubciszewski/studia/sem4/scala)
+2024.03.21 11:48:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jakubciszewski/studia/sem4/scala/.metals/bsp.trace.json or /Users/jakubciszewski/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.03.21 11:48:30 INFO  time: Connected to build server in 1.81s
+2024.03.21 11:48:30 INFO  Connected to Build server: scala-cli v1.1.3
+2024.03.21 11:48:32 INFO  no build target found for /Users/jakubciszewski/studia/sem4/scala/lab0/test.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.03.21 11:48:33 INFO  time: indexed workspace in 0.94s
+2024.03.21 11:49:38 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:49:38 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.03.21 11:50:05 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab0/test.scala
+scala.meta.tokenizers.TokenizeException: <input>:6: error: Invalid literal number
+    val matrix = for i <- 0 until 4; j <- 0 to 4do
+                                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.getFraction(LegacyScanner.scala:814)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:851)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:335)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.21 11:50:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:50:07 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.21 11:52:18 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab1/lab2.scala
+2024.03.21 11:52:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:52:18 INFO  time: compiled scala_f4dd477a3a in 23ms
+2024.03.21 11:52:18 INFO  time: indexed workspace in 0.67s
+2024.03.21 11:52:20 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab1/lab2.scala
+2024.03.21 11:52:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:52:22 INFO  time: compiled scala_f4dd477a3a in 75ms
+2024.03.21 11:52:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:52:25 INFO  time: compiled scala_f4dd477a3a in 56ms
+mar 21, 2024 11:52:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 261
+2024.03.21 11:52:49 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:52:49 INFO  time: compiled scala_f4dd477a3a in 89ms
+mar 21, 2024 11:53:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 386
+mar 21, 2024 11:53:40 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 395
+mar 21, 2024 11:53:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab1/Person.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:706)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:703)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:627)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 16 more
+
+mar 21, 2024 11:54:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab1/Person.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:706)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:703)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:627)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 16 more
+
+mar 21, 2024 11:54:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 402
+mar 21, 2024 11:54:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 410
+mar 21, 2024 11:54:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab1/Person.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:212)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:706)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:703)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:627)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	... 16 more
+
+mar 21, 2024 11:54:34 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 414
+2024.03.21 11:54:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:54:51 INFO  time: compiled scala_f4dd477a3a in 37ms
+2024.03.21 11:54:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:54:53 INFO  time: compiled scala_f4dd477a3a in 35ms
+2024.03.21 11:55:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:55:02 INFO  time: compiled scala_f4dd477a3a in 38ms
+2024.03.21 11:55:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:55:06 INFO  time: compiled scala_f4dd477a3a in 34ms
+2024.03.21 11:55:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:55:17 INFO  time: compiled scala_f4dd477a3a in 86ms
+2024.03.21 11:55:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:55:18 INFO  time: compiled scala_f4dd477a3a in 38ms
+2024.03.21 11:55:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:55:27 INFO  time: compiled scala_f4dd477a3a in 55ms
+2024.03.21 11:55:29 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:55:29 INFO  time: compiled scala_f4dd477a3a in 50ms
+2024.03.21 11:55:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:55:36 INFO  time: compiled scala_f4dd477a3a in 82ms
+2024.03.21 11:55:42 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:55:42 INFO  time: compiled scala_f4dd477a3a in 95ms
+2024.03.21 11:55:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:55:45 INFO  time: compiled scala_f4dd477a3a in 79ms
+2024.03.21 11:55:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:55:51 INFO  time: compiled scala_f4dd477a3a in 79ms
+2024.03.21 11:57:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:57:53 INFO  time: compiled scala_f4dd477a3a in 38ms
+2024.03.21 11:58:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:58:02 INFO  time: compiled scala_f4dd477a3a in 53ms
+2024.03.21 11:58:05 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:58:05 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.03.21 11:58:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:58:07 INFO  time: compiled scala_f4dd477a3a in 58ms
+2024.03.21 11:58:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:58:14 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.21 11:58:15 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:58:15 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.21 11:58:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:58:18 INFO  time: compiled scala_f4dd477a3a in 91ms
+2024.03.21 11:58:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:58:22 INFO  time: compiled scala_f4dd477a3a in 88ms
+2024.03.21 11:58:26 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:58:26 INFO  time: compiled scala_f4dd477a3a in 75ms
+mar 21, 2024 11:59:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1155
+2024.03.21 11:59:33 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:59:33 INFO  time: compiled scala_f4dd477a3a in 92ms
+2024.03.21 11:59:40 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:59:40 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.21 11:59:42 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:59:42 INFO  time: compiled scala_f4dd477a3a in 77ms
+2024.03.21 11:59:44 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:59:44 INFO  time: compiled scala_f4dd477a3a in 88ms
+2024.03.21 11:59:56 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 11:59:56 INFO  time: compiled scala_f4dd477a3a in 47ms
+mar 21, 2024 11:59:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1354
+2024.03.21 12:00:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:00:10 INFO  time: compiled scala_f4dd477a3a in 97ms
+2024.03.21 12:00:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:00:14 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.03.21 12:00:19 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:00:19 INFO  time: compiled scala_f4dd477a3a in 32ms
+2024.03.21 12:00:24 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:00:24 INFO  time: compiled scala_f4dd477a3a in 29ms
+2024.03.21 12:00:28 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:00:28 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.03.21 12:00:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:00:37 INFO  time: compiled scala_f4dd477a3a in 89ms
+2024.03.21 12:01:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:01:17 INFO  time: compiled scala_f4dd477a3a in 43ms
+2024.03.21 12:01:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:01:36 INFO  time: compiled scala_f4dd477a3a in 87ms
+2024.03.21 12:04:49 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:04:49 INFO  time: compiled scala_f4dd477a3a in 91ms
+2024.03.21 12:04:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:04:51 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.03.21 12:04:56 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:04:56 INFO  time: compiled scala_f4dd477a3a in 53ms
+2024.03.21 12:04:59 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:04:59 INFO  time: compiled scala_f4dd477a3a in 38ms
+2024.03.21 12:05:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:05:03 INFO  time: compiled scala_f4dd477a3a in 91ms
+2024.03.21 12:05:05 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:05:05 INFO  time: compiled scala_f4dd477a3a in 67ms
+2024.03.21 12:05:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:05:08 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.03.21 12:05:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:05:17 INFO  time: compiled scala_f4dd477a3a in 90ms
+2024.03.21 12:05:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:05:22 INFO  time: compiled scala_f4dd477a3a in 87ms
+2024.03.21 12:05:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:05:25 INFO  time: compiled scala_f4dd477a3a in 76ms
+2024.03.21 12:06:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:11 INFO  time: compiled scala_f4dd477a3a in 40ms
+2024.03.21 12:06:15 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:15 INFO  time: compiled scala_f4dd477a3a in 0.11s
+mar 21, 2024 12:06:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1972
+mar 21, 2024 12:06:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2002
+2024.03.21 12:06:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:22 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.03.21 12:06:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:25 INFO  time: compiled scala_f4dd477a3a in 81ms
+2024.03.21 12:06:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:27 INFO  time: compiled scala_f4dd477a3a in 40ms
+2024.03.21 12:06:31 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:31 INFO  time: compiled scala_f4dd477a3a in 29ms
+2024.03.21 12:06:34 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:34 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.03.21 12:06:41 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:41 INFO  time: compiled scala_f4dd477a3a in 53ms
+2024.03.21 12:06:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:45 INFO  time: compiled scala_f4dd477a3a in 93ms
+mar 21, 2024 12:06:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2234
+2024.03.21 12:06:50 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:50 INFO  time: compiled scala_f4dd477a3a in 43ms
+2024.03.21 12:06:52 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:52 INFO  time: compiled scala_f4dd477a3a in 30ms
+2024.03.21 12:06:55 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:55 INFO  time: compiled scala_f4dd477a3a in 57ms
+2024.03.21 12:06:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:58 INFO  time: compiled scala_f4dd477a3a in 90ms
+2024.03.21 12:06:59 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:06:59 INFO  time: compiled scala_f4dd477a3a in 76ms
+2024.03.21 12:07:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:02 INFO  time: compiled scala_f4dd477a3a in 78ms
+2024.03.21 12:07:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:03 INFO  time: compiled scala_f4dd477a3a in 95ms
+2024.03.21 12:07:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:09 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.03.21 12:07:12 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:12 INFO  time: compiled scala_f4dd477a3a in 29ms
+2024.03.21 12:07:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:14 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.03.21 12:07:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:18 INFO  time: compiled scala_f4dd477a3a in 31ms
+2024.03.21 12:07:21 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:21 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.03.21 12:07:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:25 INFO  time: compiled scala_f4dd477a3a in 53ms
+2024.03.21 12:07:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:27 INFO  time: compiled scala_f4dd477a3a in 41ms
+2024.03.21 12:07:32 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:32 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.03.21 12:07:34 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:34 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.03.21 12:07:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:39 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.03.21 12:07:49 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:49 INFO  time: compiled scala_f4dd477a3a in 82ms
+2024.03.21 12:07:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:53 INFO  time: compiled scala_f4dd477a3a in 34ms
+2024.03.21 12:07:57 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:57 INFO  time: compiled scala_f4dd477a3a in 93ms
+2024.03.21 12:07:59 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:07:59 INFO  time: compiled scala_f4dd477a3a in 93ms
+2024.03.21 12:08:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.21 12:08:18 INFO  time: compiled scala_f4dd477a3a in 84ms
+2024.03.21 12:09:40 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:09:44 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:09:47 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:09:51 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:09:57 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:09:59 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:01 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:07 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:10 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:13 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:14 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:16 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:16 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:17 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:17 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:17 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:10:17 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:11:19 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:11:22 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:11:25 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:16: error: unclosed string interpolation
+  override def toString(): String = s"$"
+                                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.21 12:11:25 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:11:25 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:16: error: unclosed string interpolation
+  override def toString(): String = s"$"
+                                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.21 12:11:30 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:11:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:11:34 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:11:34 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:11:34 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:11:35 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:11:34 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:08 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:22 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:30 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:30 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:30 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:34 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:35 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:38 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:39 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:45 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:12:58 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:01 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:02 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:21 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:23 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:31 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:31 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:31 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:35 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:13:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:16 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:20 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:13: error: [dialect scala3] ; expected but : found
+class Int2DVec(val x: Int, val y: Int):
+                                      ^
+2024.03.21 12:14:20 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:23 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:25 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:26 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:13: error: [dialect scala3] ; expected but : found
+class Int2DVec(val x: Int, val y: Int):
+                                      ^
+2024.03.21 12:14:26 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:26 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:13: error: [dialect scala3] ; expected but : found
+class Int2DVec(val x: Int, val y: Int):
+                                      ^
+2024.03.21 12:14:26 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+mar 21, 2024 12:14:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3945
+2024.03.21 12:14:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:46 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:50 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:53 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:14:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:06 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:08 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:08 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:08 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:08 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:08 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:10 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:10 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:29 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:33 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:47 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:51 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:54 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:15:56 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:16:00 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:16:02 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:16:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:16:06 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:16:11 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:16:11 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:16:12 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:16:12 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:16:12 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:16:12 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:17:00 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:17:08 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:17:12 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:17:15 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:17:15 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:17:15 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:17:15 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:17:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:17:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:18:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:18:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:18:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:25 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:29 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:39 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:42 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:45 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:52 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:53 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:53 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:20:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:02 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:06 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:14 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:14 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:15 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:21 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:34 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:40 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:45 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:46 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:54 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:56 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:21:58 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+mar 21, 2024 12:22:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5654
+2024.03.21 12:22:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:10 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:11 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:16 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+mar 21, 2024 12:22:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5816
+2024.03.21 12:22:21 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:24 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:26 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:27 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:29 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:32 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:66: error: illegal character '\u00a7'
+  println(Iv§1)
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:469)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:474)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.21 12:22:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:22:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:23:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:23:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:23:50 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:23:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+mar 21, 2024 12:24:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6018
+2024.03.21 12:24:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:24:40 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:25:44 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:25:51 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:25:56 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:25:58 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:30: error: [dialect scala3] Procedure syntax is not supported. Convert procedure `unitVectorOf` to method by adding `: Unit =`.
+  def unitVectorOf(vector: Int2DVec)
+      ^
+2024.03.21 12:25:58 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:26:12 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:26:15 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:26:19 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:26:22 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:36:39 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:36:45 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:36:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:36:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:36:52 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:37:14 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+mar 21, 2024 12:38:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6439
+2024.03.21 12:38:03 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:21: error: [dialect scala3] identifier expected but override found
+  override def toString(): String = s"($x,$y)"
+  ^
+2024.03.21 12:38:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:38:39 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:38:43 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:38:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:38:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:38:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:38:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:38:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:38:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:39:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:39:51 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:39:54 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:12 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:21 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:30 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:38 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:39 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:53 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:40:57 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:41:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:41:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:41:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:41:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:42:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:42:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:42:52 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:42:56 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:42:57 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:23 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:31 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:35 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:44 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:46 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:46 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:46 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:46 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:52 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:55 WARN  Using indexes to guess the definition of x
+2024.03.21 12:43:55 WARN  Using indexes to guess the definition of x
+2024.03.21 12:43:57 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:43:59 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:01 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:02 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:40 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:44:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:45:07 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:45:12 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:45:16 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:45:16 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:45:16 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:46:05 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:46:09 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:46:21 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:46:24 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:46:31 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:46:31 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:46:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:46:51 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:46:56 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:47:02 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:47:06 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:47:08 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:47:11 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:47:19 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:47:21 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:47:22 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:47:22 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:47:22 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:47:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:06 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:06 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:06 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:21 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:23 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:26 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:27 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:29 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:34 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:38 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:51 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:48:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:02 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:06 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:13 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:26 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:38 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:45 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:46 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:51 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:49:58 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:50:00 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:50:09 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:50:13 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:50:20 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:50:30 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:50:33 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:50:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:50:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:50:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:50:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:13 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:18 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:22 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:23 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:33 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:40 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:45 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:47 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:51 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:54 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:51:57 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:52:00 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:52:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:52:07 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:52:10 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:52:19 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:52:23 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:52:23 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:52:23 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:52:23 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:53:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:05 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:14 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:16 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:19 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:22 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:24 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:25 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:25 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:34 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:39 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:54:44 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:55:04 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:55:09 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:55:14 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:55:15 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:55:24 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+mar 21, 2024 12:55:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10791
+2024.03.21 12:55:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:55:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:55:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:55:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:55:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+mar 21, 2024 12:55:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10881
+2024.03.21 12:55:53 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:55:57 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:06 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:09 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:10 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:10 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:11 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:17 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:26 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:29 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:33 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:39 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+mar 21, 2024 12:56:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11298
+2024.03.21 12:56:51 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:57 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:57 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:58 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:58 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:56:58 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:19 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:19 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:19 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:27 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:29 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:31 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:31 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:31 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:31 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:52 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:57:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:00 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:01 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:88: error: unclosed string interpolation
+      log(timeStamp, s"multiplying $")
+                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.21 12:58:02 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:02 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:88: error: unclosed string interpolation
+      log(timeStamp, s"multiplying $")
+                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.21 12:58:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:07 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:12 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:17 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:17 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:20 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:21 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:22 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:22 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:23 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:24 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:24 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:33 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+mar 21, 2024 12:58:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11843
+2024.03.21 12:58:41 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:44 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:47 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:52 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:52 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:52 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:58:57 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:03 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:05 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:09 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:11 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:16 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:20 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:22 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:25 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:30 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:35 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:38 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:38 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:38 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 12:59:38 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:07 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:17 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:24 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:30 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:32 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:37 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:48 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:59 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:59 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:59 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:59 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:00:59 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:13 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:25 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:27 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:27 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:28 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:34 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:36 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:39 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:45 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:49 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:54 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:01:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
