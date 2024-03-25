@@ -1,4 +1,4 @@
-import scala.beans.BeanProperty
+error id: file://<WORKSPACE>/lab2/lab2.scala:[1799..1806) in Input.VirtualFile("file://<WORKSPACE>/lab2/lab2.scala", "import scala.beans.BeanProperty
 import scala.compiletime.ops.boolean
 import scala.util.hashing.Hashing.Default
 
@@ -42,7 +42,6 @@ trait Fraction:
   def -(other: Fraction): Fraction
   def /(other: Fraction): Fraction
   def *(other: Fraction): Fraction
-  def simplify(): Fraction
 
 trait Loggable:
   def log(timeStamp: Long, msg: String) =
@@ -52,26 +51,15 @@ trait Simplifiable:
   def simplify(): Fraction
 
 object Fraction:
-  def apply(
-      num: Int,
-      denom: Int,
-      loggable: Boolean = false
-  ): Fraction =
+  def apply(num: Int, denom: Int, loggable: Boolean = false): Fraction =
     if loggable then LoggableImpl(num, denom)
     else DefaultImpl(num, denom)
-
-  def gcd(a: Int, b: Int): Int =
-    if b == 0 then a else gcd(b, a % b)
+  
+  private def 
 
   private class DefaultImpl(val num: Int, val denom: Int)
       extends Fraction
       with Simplifiable:
-
-    override def simplify(): Fraction =
-      Fraction(
-        this.num / gcd(this.num, this.denom),
-        this.denom / gcd(this.num, this.denom)
-      )
     override def *(other: Fraction): Fraction =
       Fraction(
         this.num * other.num,
@@ -96,12 +84,13 @@ object Fraction:
         this.denom * other.num
       )
 
+    override def simplify(): Fraction = ???
+
     override def toString() = num.toString + "/" + denom.toString
 
   private class LoggableImpl(num: Int, denom: Int)
       extends DefaultImpl(num, denom)
       with Loggable:
-
     def timeStamp = System.nanoTime
 
     override def *(other: Fraction): Fraction =
@@ -130,12 +119,6 @@ object Fraction:
       Fraction(
         this.num * other.denom,
         this.denom * other.num
-      )
-    override def simplify(): Fraction =
-      log(timeStamp, s"simplifing ${this}")
-      Fraction(
-        this.num / gcd(this.num, this.denom),
-        this.denom / gcd(this.num, this.denom)
       )
 
 //Examples executions
@@ -181,8 +164,11 @@ object Fraction:
 
   if v1 |-? v2 then println("v1 is orthogonal to v2")
   else println("v1 is not orthogonal to v2")
+")
+file://<WORKSPACE>/lab2/lab2.scala
+file://<WORKSPACE>/lab2/lab2.scala:60: error: expected identifier; obtained private
+  private class DefaultImpl(val num: Int, val denom: Int)
+  ^
+#### Short summary: 
 
-@main def ex10(): Unit =
-  val v1 = Fraction(5, 10)
-
-  println(s"${v1.simplify()}")
+expected identifier; obtained private

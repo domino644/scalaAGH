@@ -3478,3 +3478,804 @@ WARNING: Unmatched cancel notification for request id 11843
 2024.03.21 13:01:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
 2024.03.21 13:01:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
 2024.03.21 13:01:55 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:17:17 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:17:17 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:17:17 WARN  no build target for: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+2024.03.21 13:17:24 INFO  Shutting down server
+2024.03.21 13:17:24 INFO  shutting down Metals
+2024.03.21 13:17:24 INFO  Shut down connection with build server.
+2024.03.21 13:17:24 INFO  Exiting server
+2024.03.25 12:44:29 INFO  Started: Metals version 1.2.2 in folders '/Users/jakubciszewski/studia/sem4/scala' for client Visual Studio Code 1.87.2.
+12:44:30.164 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+12:44:30.165 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+12:44:30.165 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+12:44:30.166 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+12:44:30.167 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca ...
+12:44:30.167 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+12:44:30.167 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+12:44:30.167 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca ...
+12:44:30.167 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/Users/jakubciszewski/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+12:44:30.169 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+12:44:30.169 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+12:44:30.169 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+12:44:30.169 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+12:44:30.169 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+12:44:30.169 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+12:44:30.172 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+12:44:30.172 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+12:44:30.173 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+12:44:30.173 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+12:44:30.173 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+12:44:30.229 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/Users/jakubciszewski/studia/sem4/scala/.metals/metals (H2 2.2)
+12:44:30.229 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+12:44:30.229 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+12:44:30.229 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+12:44:30.229 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+12:44:30.231 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+12:44:30.232 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+12:44:30.232 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+12:44:30.235 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+12:44:30.237 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+12:44:30.240 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+12:44:30.240 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+12:44:30.240 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+12:44:30.240 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+12:44:30.240 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+12:44:30.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+12:44:30.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+12:44:30.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+12:44:30.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+12:44:30.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+12:44:30.246 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.010s)
+12:44:30.247 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+12:44:30.250 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+12:44:30.251 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+12:44:30.258 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 35 of 104M
+2024.03.25 12:44:30 WARN  No build session currently active to reload.
+2024.03.25 12:44:30 INFO  Attempting to connect to the build server...
+2024.03.25 12:44:30 INFO  Running BSP server List(/Users/jakubciszewski/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/jakubciszewski/studia/sem4/scala/.scala-build/ide-options-v2.json, /Users/jakubciszewski/studia/sem4/scala)
+2024.03.25 12:44:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jakubciszewski/studia/sem4/scala/.metals/bsp.trace.json or /Users/jakubciszewski/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.03.25 12:44:31 INFO  time: Connected to build server in 1.12s
+2024.03.25 12:44:31 INFO  Connected to Build server: scala-cli v1.1.3
+2024.03.25 12:44:31 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.03.25 12:44:32 INFO  Shutting down server
+2024.03.25 12:44:32 INFO  shutting down Metals
+2024.03.25 12:44:32 INFO  Shut down connection with build server.
+2024.03.25 12:44:34 INFO  no build target found for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala. Using presentation compiler with project's scala-library version: 3.3.1
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@2aa2baec[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 153]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2065)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:833)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1365)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:506)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@2aa2baec[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 153]
+2024.03.25 13:10:31 INFO  Started: Metals version 1.2.2 in folders '/Users/jakubciszewski/studia/sem4/scala' for client Visual Studio Code 1.87.2.
+13:10:32.234 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+13:10:32.235 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+13:10:32.235 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+13:10:32.236 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+13:10:32.236 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca ...
+13:10:32.236 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+13:10:32.236 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+13:10:32.236 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca ...
+13:10:32.237 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/Users/jakubciszewski/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+13:10:32.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+13:10:32.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+13:10:32.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+13:10:32.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+13:10:32.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+13:10:32.241 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+13:10:32.243 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:10:32.243 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+13:10:32.244 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+13:10:32.244 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+13:10:32.244 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+13:10:32.301 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/Users/jakubciszewski/studia/sem4/scala/.metals/metals (H2 2.2)
+13:10:32.301 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+13:10:32.301 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+13:10:32.301 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+13:10:32.301 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+13:10:32.303 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+13:10:32.304 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+13:10:32.304 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:10:32.307 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+13:10:32.309 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:10:32.312 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+13:10:32.312 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:10:32.312 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+13:10:32.312 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+13:10:32.312 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+13:10:32.312 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+13:10:32.312 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:10:32.312 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+13:10:32.312 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+13:10:32.312 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+13:10:32.318 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.010s)
+13:10:32.319 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+13:10:32.321 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+13:10:32.323 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+13:10:32.330 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 35 of 104M
+2024.03.25 13:10:32 WARN  No build session currently active to reload.
+2024.03.25 13:10:32 INFO  Attempting to connect to the build server...
+2024.03.25 13:10:32 INFO  Running BSP server List(/Users/jakubciszewski/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/jakubciszewski/studia/sem4/scala/.scala-build/ide-options-v2.json, /Users/jakubciszewski/studia/sem4/scala)
+2024.03.25 13:10:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jakubciszewski/studia/sem4/scala/.metals/bsp.trace.json or /Users/jakubciszewski/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.03.25 13:10:33 INFO  time: Connected to build server in 1.17s
+2024.03.25 13:10:33 INFO  Connected to Build server: scala-cli v1.1.3
+2024.03.25 13:10:35 INFO  no build target found for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.03.25 13:10:36 INFO  time: indexed workspace in 1.01s
+2024.03.25 13:15:23 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:15:23 INFO  time: compiled scala_f4dd477a3a in 0.16s
+2024.03.25 13:16:40 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:16:40 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.03.25 13:16:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:16:45 INFO  time: compiled scala_f4dd477a3a in 0.18s
+2024.03.25 13:16:48 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:16:48 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.03.25 13:16:52 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:60: error: [dialect scala3] = expected but private found
+  private class DefaultImpl(val num: Int, val denom: Int)
+  ^
+2024.03.25 13:16:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:16:53 INFO  time: compiled scala_f4dd477a3a in 53ms
+2024.03.25 13:17:01 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:60: error: [dialect scala3] identifier expected but private found
+  private class DefaultImpl(val num: Int, val denom: Int)
+  ^
+2024.03.25 13:17:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:17:02 INFO  time: compiled scala_f4dd477a3a in 78ms
+2024.03.25 13:17:03 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:60: error: [dialect scala3] illegal start of simple expression
+  private class DefaultImpl(val num: Int, val denom: Int)
+  ^
+2024.03.25 13:17:05 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:17:05 INFO  time: compiled scala_f4dd477a3a in 51ms
+2024.03.25 13:17:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:17:07 INFO  time: compiled scala_f4dd477a3a in 48ms
+2024.03.25 13:17:14 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:61: error: [dialect scala3] illegal start of simple expression
+  private class DefaultImpl(val num: Int, val denom: Int)
+  ^
+2024.03.25 13:17:16 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:17:16 INFO  time: compiled scala_f4dd477a3a in 62ms
+2024.03.25 13:17:18 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:61: error: [dialect scala3] illegal start of simple expression
+  private class DefaultImpl(val num: Int, val denom: Int)
+  ^
+2024.03.25 13:17:19 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:17:19 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.03.25 13:17:23 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:17:23 INFO  time: compiled scala_f4dd477a3a in 59ms
+2024.03.25 13:17:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:17:27 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:17:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:17:39 INFO  time: compiled scala_f4dd477a3a in 68ms
+2024.03.25 13:17:43 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:17:43 INFO  time: compiled scala_f4dd477a3a in 76ms
+2024.03.25 13:17:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:17:53 INFO  time: compiled scala_f4dd477a3a in 78ms
+2024.03.25 13:17:56 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:17:56 INFO  time: compiled scala_f4dd477a3a in 76ms
+2024.03.25 13:18:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:02 INFO  time: compiled scala_f4dd477a3a in 60ms
+2024.03.25 13:18:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:07 INFO  time: compiled scala_f4dd477a3a in 73ms
+2024.03.25 13:18:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:37 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.03.25 13:18:38 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:89: error: [dialect scala3] ; expected but = found
+      divide: Int = gcd(this.num, this.denom)
+                  ^
+2024.03.25 13:18:38 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:38 INFO  time: compiled scala_f4dd477a3a in 57ms
+2024.03.25 13:18:38 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:89: error: [dialect scala3] ; expected but = found
+      divide: Int = gcd(this.num, this.denom)
+                  ^
+2024.03.25 13:18:38 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:38 INFO  time: compiled scala_f4dd477a3a in 59ms
+2024.03.25 13:18:38 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:89: error: [dialect scala3] ; expected but = found
+      divide: Int = gcd(this.num, this.denom)
+                  ^
+2024.03.25 13:18:38 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:38 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.03.25 13:18:44 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:44 INFO  time: compiled scala_f4dd477a3a in 71ms
+2024.03.25 13:18:47 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:47 INFO  time: compiled scala_f4dd477a3a in 69ms
+2024.03.25 13:18:48 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:89: error: [dialect scala3] ; expected but = found
+      divide: Int = gcd(this.num, this.denom);
+                  ^
+2024.03.25 13:18:48 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:48 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.03.25 13:18:48 WARN  Using indexes to guess the definition of denom
+2024.03.25 13:18:48 WARN  Using indexes to guess the definition of num
+2024.03.25 13:18:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:53 INFO  time: compiled scala_f4dd477a3a in 73ms
+2024.03.25 13:18:56 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:56 INFO  time: compiled scala_f4dd477a3a in 72ms
+2024.03.25 13:18:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:18:58 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.03.25 13:19:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:19:03 INFO  time: compiled scala_f4dd477a3a in 62ms
+2024.03.25 13:19:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:19:10 INFO  time: compiled scala_f4dd477a3a in 69ms
+2024.03.25 13:19:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:19:14 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:19:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:19:18 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.03.25 13:19:24 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:19:24 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:21:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:21:17 INFO  time: compiled scala_f4dd477a3a in 55ms
+2024.03.25 13:21:26 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:21:26 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.03.25 13:21:29 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:21:29 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:21:34 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:21:34 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:21:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:21:45 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:22:08 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:176: error: unclosed string interpolation
+  println(s"$")
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.25 13:22:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:22:09 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:22:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:22:17 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:22:20 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:22:20 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:22:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:22:36 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:22:41 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:22:41 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:22:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:22:45 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:23:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:23:08 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.03.25 13:23:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:23:09 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.03.25 13:23:30 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:23:30 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:23:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:23:39 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:24:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:24:53 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:25:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:14 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:25:16 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:16 INFO  time: compiled scala_f4dd477a3a in 39ms
+2024.03.25 13:25:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:18 INFO  time: compiled scala_f4dd477a3a in 37ms
+2024.03.25 13:25:21 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:21 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:25:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:27 INFO  time: compiled scala_f4dd477a3a in 56ms
+2024.03.25 13:25:28 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:28 INFO  time: compiled scala_f4dd477a3a in 33ms
+2024.03.25 13:25:31 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:31 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:25:35 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:35 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:25:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:37 INFO  time: compiled scala_f4dd477a3a in 96ms
+2024.03.25 13:25:41 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:131: error: unclosed string interpolation
+      log(timeStamp, s"simplifing $")
+                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.25 13:25:42 INFO  compiling scala_f4dd477a3a (1 scala source)
+mar 25, 2024 1:25:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1656
+2024.03.25 13:25:42 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.03.25 13:25:47 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:47 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:25:49 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:49 INFO  time: compiled scala_f4dd477a3a in 36ms
+2024.03.25 13:25:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:25:51 INFO  time: compiled scala_f4dd477a3a in 50ms
+2024.03.25 13:26:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:26:11 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.03.25 13:26:32 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:26:32 INFO  time: compiled scala_f4dd477a3a in 58ms
+2024.03.25 13:26:35 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:26:35 INFO  time: compiled scala_f4dd477a3a in 45ms
+2024.03.25 13:26:40 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:26:40 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.03.25 13:26:46 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:26:46 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:26:49 INFO  Shutting down server
+2024.03.25 13:26:49 INFO  shutting down Metals
+2024.03.25 13:26:49 INFO  Shut down connection with build server.
+2024.03.25 13:26:49 INFO  Exiting server
+2024.03.25 13:26:53 INFO  Started: Metals version 1.2.2 in folders '/Users/jakubciszewski/studia/sem4/scala' for client Visual Studio Code 1.87.2.
+13:26:54.083 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+13:26:54.084 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+13:26:54.084 [pool-1-thread-1] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+13:26:54.085 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+13:26:54.085 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca ...
+13:26:54.085 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+13:26:54.085 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+13:26:54.085 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca ...
+13:26:54.085 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/Users/jakubciszewski/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+13:26:54.087 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+13:26:54.088 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+13:26:54.088 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+13:26:54.088 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+13:26:54.088 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+13:26:54.088 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+13:26:54.090 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:26:54.090 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+13:26:54.091 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+13:26:54.091 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+13:26:54.091 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+13:26:54.147 [pool-1-thread-1] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/Users/jakubciszewski/studia/sem4/scala/.metals/metals (H2 2.2)
+13:26:54.147 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+13:26:54.147 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+13:26:54.148 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+13:26:54.148 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+13:26:54.150 [pool-1-thread-1] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+13:26:54.150 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+13:26:54.150 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:26:54.154 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+13:26:54.156 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:26:54.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+13:26:54.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:26:54.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+13:26:54.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+13:26:54.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+13:26:54.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+13:26:54.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:26:54.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+13:26:54.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+13:26:54.160 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+13:26:54.165 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.010s)
+13:26:54.166 [pool-1-thread-1] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+13:26:54.168 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+13:26:54.170 [pool-1-thread-1] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+13:26:54.178 [pool-1-thread-1] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 35 of 104M
+2024.03.25 13:26:54 WARN  No build session currently active to reload.
+2024.03.25 13:26:54 INFO  Attempting to connect to the build server...
+2024.03.25 13:26:54 INFO  Running BSP server List(/Users/jakubciszewski/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/jakubciszewski/studia/sem4/scala/.scala-build/ide-options-v2.json, /Users/jakubciszewski/studia/sem4/scala)
+2024.03.25 13:26:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jakubciszewski/studia/sem4/scala/.metals/bsp.trace.json or /Users/jakubciszewski/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.03.25 13:26:54 INFO  time: Connected to build server in 1.01s
+2024.03.25 13:26:54 INFO  Connected to Build server: scala-cli v1.1.3
+2024.03.25 13:26:57 INFO  no build target found for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala. Using presentation compiler with project's scala-library version: 3.3.1
+mar 25, 2024 1:26:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+mar 25, 2024 1:26:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2024.03.25 13:26:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:26:58 INFO  time: compiled scala_f4dd477a3a in 75ms
+2024.03.25 13:26:59 INFO  time: indexed workspace in 1.28s
+2024.03.25 13:26:59 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:27:00 INFO  time: compiled scala_f4dd477a3a in 1.73s
+2024.03.25 13:27:00 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:27:00 INFO  time: compiled scala_f4dd477a3a in 43ms
+2024.03.25 13:27:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:27:02 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.03.25 13:27:05 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:27:05 INFO  time: compiled scala_f4dd477a3a in 51ms
+2024.03.25 13:27:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:27:08 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.03.25 13:28:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:28:07 INFO  time: compiled scala_f4dd477a3a in 48ms
+2024.03.25 13:28:32 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:28:32 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:28:38 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:28:38 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:28:41 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:28:41 INFO  time: compiled scala_f4dd477a3a in 0.15s
+2024.03.25 13:30:28 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:30:28 INFO  time: compiled scala_f4dd477a3a in 46ms
+2024.03.25 13:30:32 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:30:32 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:30:52 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:30:52 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:30:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:30:58 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:30:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:30:58 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:30:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:30:58 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:31:00 WARN  Using indexes to guess the definition of simplify
+2024.03.25 13:31:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:31:06 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:31:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:31:10 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:31:33 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:31:33 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:31:44 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:31:44 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:31:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:31:53 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:32:00 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:32:00 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:32:24 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:32:24 INFO  time: compiled scala_f4dd477a3a in 0.46s
+2024.03.25 13:32:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:32:37 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:32:43 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:32:43 INFO  time: compiled scala_f4dd477a3a in 0.12s
+mar 25, 2024 1:32:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 496
+mar 25, 2024 1:32:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 497
+mar 25, 2024 1:32:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 501
+2024.03.25 13:34:33 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:34:33 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:34:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:34:37 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:35:04 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:35:04 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:35:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:35:09 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:35:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:35:11 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:35:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:35:14 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:35:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:35:17 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.03.25 13:35:35 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:35:35 INFO  time: compiled scala_f4dd477a3a in 45ms
+2024.03.25 13:35:36 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala:185: error: [dialect scala3] identifier expected but } found
+  println(s"v1 simplified: ${v2.}")
+                                ^
+2024.03.25 13:35:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:35:36 INFO  time: compiled scala_f4dd477a3a in 39ms
+2024.03.25 13:36:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:36:25 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:36:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:36:27 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:36:28 WARN  Using indexes to guess the definition of simplify
+2024.03.25 13:42:50 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:42:50 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.03.25 13:42:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:42:53 INFO  time: compiled scala_f4dd477a3a in 59ms
+2024.03.25 13:42:57 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:42:57 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:43:12 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:43:12 INFO  time: compiled scala_f4dd477a3a in 40ms
+2024.03.25 13:43:13 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:43:13 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:43:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:43:14 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:43:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:43:14 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:43:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:43:14 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.03.25 13:43:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:43:14 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:44:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:06 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.03.25 13:44:16 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:16 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:44:16 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:16 INFO  time: compiled scala_f4dd477a3a in 94ms
+2024.03.25 13:44:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:25 INFO  time: compiled scala_f4dd477a3a in 0.12s
+mar 25, 2024 1:44:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 925
+2024.03.25 13:44:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:25 INFO  Deduplicating compilation of scala_f4dd477a3a from bsp client 'scala-cli 1.1.3' (since 17m 31.032s)
+2024.03.25 13:44:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:25 INFO  time: compiled scala_f4dd477a3a in 17ms
+2024.03.25 13:44:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:25 INFO  Deduplicating compilation of scala_f4dd477a3a from bsp client 'scala-cli 1.1.3' (since 17m 31.21s)
+2024.03.25 13:44:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:25 INFO  time: compiled scala_f4dd477a3a in 41ms
+2024.03.25 13:44:29 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:29 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:44:29 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:29 INFO  time: compiled scala_f4dd477a3a in 88ms
+2024.03.25 13:44:35 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:35 INFO  time: compiled scala_f4dd477a3a in 46ms
+2024.03.25 13:44:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:37 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:44:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:44:37 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:45:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:45:06 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:45:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:45:08 INFO  time: compiled scala_f4dd477a3a in 85ms
+2024.03.25 13:45:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:45:08 INFO  time: compiled scala_f4dd477a3a in 94ms
+2024.03.25 13:45:30 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:45:30 INFO  time: compiled scala_f4dd477a3a in 69ms
+mar 25, 2024 1:45:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1233
+2024.03.25 13:45:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:45:37 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:45:41 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:45:41 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:45:54 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:45:54 INFO  time: compiled scala_f4dd477a3a in 81ms
+2024.03.25 13:45:54 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:45:54 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.03.25 13:46:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:46:02 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.03.25 13:46:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:46:07 INFO  time: compiled scala_f4dd477a3a in 96ms
+2024.03.25 13:46:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:46:10 INFO  time: compiled scala_f4dd477a3a in 0.23s
+2024.03.25 13:46:13 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:46:13 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.03.25 13:46:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:46:17 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:46:19 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:46:19 INFO  time: compiled scala_f4dd477a3a in 85ms
+2024.03.25 13:46:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:46:25 INFO  time: compiled scala_f4dd477a3a in 99ms
+2024.03.25 13:46:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:46:36 INFO  time: compiled scala_f4dd477a3a in 98ms
+2024.03.25 13:46:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:46:51 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.03.25 13:46:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:46:58 INFO  time: compiled scala_f4dd477a3a in 40ms
+2024.03.25 13:47:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:47:08 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.03.25 13:47:15 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:47:15 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:47:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:47:17 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:49:34 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:49:34 INFO  time: compiled scala_f4dd477a3a in 65ms
+2024.03.25 13:49:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:49:36 INFO  time: compiled scala_f4dd477a3a in 49ms
+2024.03.25 13:49:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:49:39 INFO  time: compiled scala_f4dd477a3a in 65ms
+2024.03.25 13:49:43 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:49:43 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:49:43 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:49:43 INFO  time: compiled scala_f4dd477a3a in 99ms
+2024.03.25 13:49:43 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:49:43 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:49:43 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:49:43 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:50:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:50:53 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:51:12 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:51:12 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.03.25 13:51:12 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:51:12 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.03.25 13:51:12 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:51:12 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.03.25 13:52:40 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:52:40 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.03.25 13:52:47 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:52:47 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.03.25 13:54:23 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:54:23 INFO  time: compiled scala_f4dd477a3a in 49ms
+2024.03.25 13:54:24 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:188: error: unclosed string interpolation
+  println(s"v1.simplify()
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.25 13:54:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:54:25 INFO  time: compiled scala_f4dd477a3a in 48ms
+2024.03.25 13:54:25 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:188: error: unclosed string interpolation
+  println(s"v1.simplify()
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.25 13:54:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:54:27 INFO  time: compiled scala_f4dd477a3a in 40ms
+2024.03.25 13:54:29 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:188: error: unclosed string interpolation
+  println(s"${v1.simplify()}
+                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:249)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.25 13:54:30 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:188: error: unclosed string literal
+  println(s"${v1.simplify()}")"
+                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.25 13:54:31 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:54:31 INFO  time: compiled scala_f4dd477a3a in 50ms
+2024.03.25 13:54:31 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab2/lab2.scala
+scala.meta.tokenizers.TokenizeException: <input>:188: error: unclosed string literal
+  println(s"${v1.simplify()}")"
+                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.03.25 13:54:32 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.03.25 13:54:32 INFO  time: compiled scala_f4dd477a3a in 97ms

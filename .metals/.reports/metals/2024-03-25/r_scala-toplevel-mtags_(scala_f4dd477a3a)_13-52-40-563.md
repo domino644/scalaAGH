@@ -1,4 +1,4 @@
-import scala.beans.BeanProperty
+error id: file://<WORKSPACE>/lab2/lab2.scala:[1459..1464) in Input.VirtualFile("file://<WORKSPACE>/lab2/lab2.scala", "import scala.beans.BeanProperty
 import scala.compiletime.ops.boolean
 import scala.util.hashing.Hashing.Default
 
@@ -42,7 +42,7 @@ trait Fraction:
   def -(other: Fraction): Fraction
   def /(other: Fraction): Fraction
   def *(other: Fraction): Fraction
-  def simplify(): Fraction
+  def 
 
 trait Loggable:
   def log(timeStamp: Long, msg: String) =
@@ -185,4 +185,12 @@ object Fraction:
 @main def ex10(): Unit =
   val v1 = Fraction(5, 10)
 
-  println(s"${v1.simplify()}")
+  v1.simplify()
+")
+file://<WORKSPACE>/lab2/lab2.scala
+file://<WORKSPACE>/lab2/lab2.scala:47: error: expected identifier; obtained trait
+trait Loggable:
+^
+#### Short summary: 
+
+expected identifier; obtained trait
