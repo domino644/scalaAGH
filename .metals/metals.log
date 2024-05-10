@@ -8040,3 +8040,733 @@ maj 10, 2024 1:59:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellat
 WARNING: Unmatched cancel notification for request id 1606
 2024.05.10 13:59:24 INFO  compiling scala_f4dd477a3a (1 scala source)
 2024.05.10 13:59:24 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:05:59 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab4/lab41.scala
+2024.05.10 14:05:59 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:05:59 INFO  time: compiled scala_f4dd477a3a in 77ms
+2024.05.10 14:06:00 INFO  time: indexed workspace in 1.14s
+2024.05.10 14:06:00 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:06:06 INFO  time: compiled scala_f4dd477a3a in 5.45s
+maj 10, 2024 2:06:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1662
+2024.05.10 14:06:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:06:06 INFO  time: compiled scala_f4dd477a3a in 50ms
+2024.05.10 14:06:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:06:22 INFO  time: compiled scala_f4dd477a3a in 39ms
+2024.05.10 14:06:28 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:06:28 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.05.10 14:10:00 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:10:00 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:10:00 INFO  time: compiled scala_f4dd477a3a in 69ms
+2024.05.10 14:10:01 INFO  time: indexed workspace in 1.18s
+2024.05.10 14:10:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:10:07 INFO  time: compiled scala_f4dd477a3a in 99ms
+2024.05.10 14:10:31 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:10:31 INFO  time: compiled scala_f4dd477a3a in 0.21s
+2024.05.10 14:10:31 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:10:31 INFO  time: compiled scala_f4dd477a3a in 0.15s
+maj 10, 2024 2:10:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1814
+2024.05.10 14:10:34 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:10:34 INFO  time: compiled scala_f4dd477a3a in 0.17s
+maj 10, 2024 2:10:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1820
+2024.05.10 14:10:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:10:36 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 14:11:01 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:11:01 INFO  time: compiled scala_f4dd477a3a in 64ms
+2024.05.10 14:11:38 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:11:38 INFO  time: compiled scala_f4dd477a3a in 65ms
+2024.05.10 14:11:38 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:11:38 INFO  time: compiled scala_f4dd477a3a in 57ms
+2024.05.10 14:11:57 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:11:57 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:12:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:12:07 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:12:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:12:10 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:12:46 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:12:46 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:12:50 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:12:50 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:18:16 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:18:16 INFO  time: compiled scala_f4dd477a3a in 51ms
+2024.05.10 14:18:19 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:18:19 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.05.10 14:18:20 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:18:20 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.05.10 14:18:23 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:18:23 INFO  time: compiled scala_f4dd477a3a in 53ms
+2024.05.10 14:18:34 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:18:34 INFO  time: compiled scala_f4dd477a3a in 62ms
+2024.05.10 14:18:35 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:18:35 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.05.10 14:18:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:18:39 INFO  time: compiled scala_f4dd477a3a in 45ms
+2024.05.10 14:18:48 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:18:48 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.05.10 14:18:48 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:18:48 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:18:50 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:18:50 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:19:01 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:01 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.10 14:19:04 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:04 INFO  time: compiled scala_f4dd477a3a in 56ms
+2024.05.10 14:19:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:07 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.05.10 14:19:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:08 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:19:09 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+scala.meta.tokenizers.TokenizeException: <input>:26: error: Non-zero integral values may not have a leading zero.
+  var sum = 01
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 14:19:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:11 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:19:12 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:12 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 14:19:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:14 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.05.10 14:19:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:18 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:19:33 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:33 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:19:42 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:42 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 14:19:46 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:46 INFO  time: compiled scala_f4dd477a3a in 55ms
+2024.05.10 14:19:48 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:48 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.05.10 14:19:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:51 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.05.10 14:19:55 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:19:55 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:20:00 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:20:00 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.05.10 14:20:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:20:03 INFO  time: compiled scala_f4dd477a3a in 58ms
+2024.05.10 14:20:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:20:06 INFO  time: compiled scala_f4dd477a3a in 53ms
+2024.05.10 14:20:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:20:14 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:20:15 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:20:15 INFO  time: compiled scala_f4dd477a3a in 90ms
+2024.05.10 14:20:19 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:20:19 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:20:21 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:20:21 INFO  time: compiled scala_f4dd477a3a in 91ms
+2024.05.10 14:20:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:20:25 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:20:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:20:39 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:20:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:20:45 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.05.10 14:20:48 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:20:48 INFO  time: compiled scala_f4dd477a3a in 36ms
+2024.05.10 14:21:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:06 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.05.10 14:21:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:07 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.05.10 14:21:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:10 INFO  time: compiled scala_f4dd477a3a in 39ms
+2024.05.10 14:21:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:11 INFO  time: compiled scala_f4dd477a3a in 50ms
+2024.05.10 14:21:13 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:13 INFO  time: compiled scala_f4dd477a3a in 37ms
+2024.05.10 14:21:15 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:15 INFO  time: compiled scala_f4dd477a3a in 48ms
+2024.05.10 14:21:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:18 INFO  time: compiled scala_f4dd477a3a in 35ms
+2024.05.10 14:21:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:27 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.05.10 14:21:30 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:30 INFO  time: compiled scala_f4dd477a3a in 43ms
+2024.05.10 14:21:33 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:33 INFO  time: compiled scala_f4dd477a3a in 40ms
+2024.05.10 14:21:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:37 INFO  time: compiled scala_f4dd477a3a in 49ms
+2024.05.10 14:21:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:39 INFO  time: compiled scala_f4dd477a3a in 59ms
+2024.05.10 14:21:42 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:42 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.05.10 14:21:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:45 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.05.10 14:21:47 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:47 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 14:21:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:53 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:21:57 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:21:57 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:22:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:22:03 INFO  time: compiled scala_f4dd477a3a in 58ms
+2024.05.10 14:22:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:22:03 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:22:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:22:09 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:22:19 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:22:19 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.10 14:22:21 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:22:21 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.05.10 14:22:31 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:22:31 INFO  time: compiled scala_f4dd477a3a in 46ms
+2024.05.10 14:22:42 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:22:42 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:22:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:22:45 INFO  time: compiled scala_f4dd477a3a in 0.11s
+maj 10, 2024 2:22:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4027
+2024.05.10 14:22:57 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:22:57 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:22:59 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:22:59 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:23:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:23:03 INFO  time: compiled scala_f4dd477a3a in 55ms
+2024.05.10 14:23:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:23:09 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:23:15 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:23:15 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:23:23 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:23:23 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 14:23:26 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:23:26 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:23:27 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+scala.meta.tokenizers.TokenizeException: <input>:73: error: Invalid literal number, followed by identifier character
+    sumSqrArrayRec2(0a1To5) == expectResultProd,
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:857)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 14:23:28 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:23:28 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:23:30 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:23:30 INFO  time: compiled scala_f4dd477a3a in 85ms
+2024.05.10 14:23:32 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:23:32 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:24:05 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:24:05 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.05.10 14:24:24 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:24:24 INFO  time: compiled scala_f4dd477a3a in 57ms
+2024.05.10 14:24:28 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:24:28 INFO  time: compiled scala_f4dd477a3a in 46ms
+2024.05.10 14:24:30 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:24:30 INFO  time: compiled scala_f4dd477a3a in 58ms
+2024.05.10 14:24:32 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:24:32 INFO  time: compiled scala_f4dd477a3a in 94ms
+2024.05.10 14:24:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:24:39 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:24:43 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:24:43 INFO  time: compiled scala_f4dd477a3a in 94ms
+2024.05.10 14:24:49 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:24:49 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:25:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:25:02 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.10 14:25:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:25:22 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:25:29 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:25:29 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:25:35 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:25:35 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:25:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:25:37 INFO  time: compiled scala_f4dd477a3a in 41ms
+2024.05.10 14:25:38 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:25:38 INFO  time: compiled scala_f4dd477a3a in 96ms
+2024.05.10 14:25:40 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:25:40 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:25:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:25:51 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:25:59 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:25:59 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:26:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:26:03 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:26:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:26:06 INFO  time: compiled scala_f4dd477a3a in 46ms
+2024.05.10 14:26:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:26:07 INFO  time: compiled scala_f4dd477a3a in 96ms
+2024.05.10 14:26:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:26:08 INFO  time: compiled scala_f4dd477a3a in 94ms
+2024.05.10 14:26:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:26:14 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:26:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:26:18 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:26:20 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:26:20 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.05.10 14:26:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:26:22 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:26:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:26:27 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:26:30 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:26:30 INFO  time: compiled scala_f4dd477a3a in 87ms
+2024.05.10 14:27:05 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:27:05 INFO  time: compiled scala_f4dd477a3a in 51ms
+2024.05.10 14:27:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:27:08 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:27:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:27:09 INFO  time: compiled scala_f4dd477a3a in 38ms
+2024.05.10 14:27:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:27:11 INFO  time: compiled scala_f4dd477a3a in 56ms
+2024.05.10 14:27:13 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:27:13 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:36:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:36:17 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:36:23 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:36:23 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:36:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:36:37 INFO  time: compiled scala_f4dd477a3a in 65ms
+2024.05.10 14:36:41 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:36:41 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:37:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:37:02 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:38:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:38:09 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:39:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:39:06 INFO  time: compiled scala_f4dd477a3a in 48ms
+2024.05.10 14:39:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:39:08 INFO  time: compiled scala_f4dd477a3a in 37ms
+2024.05.10 14:39:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:39:11 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.05.10 14:39:13 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:39:13 INFO  time: compiled scala_f4dd477a3a in 37ms
+2024.05.10 14:39:21 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:39:21 INFO  time: compiled scala_f4dd477a3a in 43ms
+2024.05.10 14:39:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:39:27 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.05.10 14:39:34 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:39:34 INFO  time: compiled scala_f4dd477a3a in 50ms
+2024.05.10 14:39:42 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:39:42 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.05.10 14:39:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:39:45 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:39:47 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:39:47 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:39:49 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:39:49 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:40:05 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:40:05 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:40:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:40:09 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:40:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:40:09 INFO  time: compiled scala_f4dd477a3a in 94ms
+2024.05.10 14:40:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:40:22 INFO  time: compiled scala_f4dd477a3a in 49ms
+2024.05.10 14:40:23 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:24 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:28 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:28 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:29 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:30 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+maj 10, 2024 2:40:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6130
+2024.05.10 14:40:33 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:34 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:35 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:40:35 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.05.10 14:40:35 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:38 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:39 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:40 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:40 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:41 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:41 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:42 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:43 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:44 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:45 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:45 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:47 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:48 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:49 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:49 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:50 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:51 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:52 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:54 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:40:55 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:40:55 INFO  time: compiled scala_f4dd477a3a in 56ms
+2024.05.10 14:40:55 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:41:01 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:41:01 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:41:01 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:41:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:41:09 INFO  time: compiled scala_f4dd477a3a in 57ms
+2024.05.10 14:41:21 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:41:21 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.05.10 14:41:26 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:41:26 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:41:30 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:41:30 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:41:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:41:36 INFO  time: compiled scala_f4dd477a3a in 49ms
+2024.05.10 14:41:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:41:51 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:41:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:41:58 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.05.10 14:42:04 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:04 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:42:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:09 INFO  time: compiled scala_f4dd477a3a in 50ms
+2024.05.10 14:42:10 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:42:10 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:42:10 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:42:10 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:42:10 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:42:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:18 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:42:21 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:21 INFO  time: compiled scala_f4dd477a3a in 93ms
+2024.05.10 14:42:24 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:24 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.10 14:42:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:25 INFO  time: compiled scala_f4dd477a3a in 96ms
+2024.05.10 14:42:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:27 INFO  time: compiled scala_f4dd477a3a in 36ms
+2024.05.10 14:42:28 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:28 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:42:34 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:34 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:42:40 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:40 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:42:46 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:46 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:42:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:42:51 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:43:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:43:08 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:43:54 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:43:54 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:45:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:45:03 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:45:15 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:45:15 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:45:57 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:45:57 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:46:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:46:09 INFO  time: compiled scala_f4dd477a3a in 50ms
+2024.05.10 14:46:09 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:14 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:15 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:46:15 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.10 14:46:15 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:16 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:17 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:18 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:18 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:19 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+maj 10, 2024 2:46:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7743
+2024.05.10 14:46:20 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:21 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:46:22 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.10 14:46:23 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:24 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:46:24 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.10 14:46:24 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:27 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:28 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:28 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:28 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:29 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:30 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:31 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:32 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:33 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:33 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:34 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:34 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:35 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:36 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:37 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:38 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:46:38 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.10 14:46:38 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:43 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:43 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:46:43 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.10 14:46:44 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:46:44 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala:75: error: [dialect scala3] = expected but @ found
+@main def ex42_01(): Unit =
+^
+2024.05.10 14:46:44 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:46:44 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.05.10 14:46:45 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:04 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:08 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:09 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:47:10 INFO  time: compiled scala_f4dd477a3a in 61ms
+2024.05.10 14:47:11 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:13 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala:75: error: [dialect scala3] = expected but @ found
+@main def ex42_01(): Unit =
+^
+2024.05.10 14:47:13 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:13 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:47:13 INFO  time: compiled scala_f4dd477a3a in 39ms
+2024.05.10 14:47:13 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:16 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:16 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala:76: error: [dialect scala3] illegal start of simple expression
+@main def ex42_01(): Unit =
+^
+2024.05.10 14:47:16 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:47:16 INFO  time: compiled scala_f4dd477a3a in 46ms
+2024.05.10 14:47:16 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala:76: error: [dialect scala3] illegal start of simple expression
+@main def ex42_01(): Unit =
+^
+2024.05.10 14:47:16 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:47:16 INFO  time: compiled scala_f4dd477a3a in 31ms
+2024.05.10 14:47:17 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:21 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:23 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:24 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:24 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:25 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:25 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:25 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:26 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:47:26 INFO  time: compiled scala_f4dd477a3a in 50ms
+2024.05.10 14:47:27 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:29 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:29 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:30 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:47:30 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.10 14:47:30 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:38 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:39 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:40 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:47:40 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:47:40 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:41 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+2024.05.10 14:47:42 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:47:42 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:48:35 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:48:35 INFO  time: compiled scala_f4dd477a3a in 51ms
+2024.05.10 14:48:40 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:48:40 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.05.10 14:48:44 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:48:44 INFO  time: compiled scala_f4dd477a3a in 41ms
+2024.05.10 14:48:49 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:48:49 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.05.10 14:49:13 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:49:13 INFO  time: compiled scala_f4dd477a3a in 53ms
+2024.05.10 14:49:29 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:49:29 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:49:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:49:36 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:49:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:49:36 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:49:47 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:49:47 INFO  time: compiled scala_f4dd477a3a in 55ms
+2024.05.10 14:49:47 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:49:47 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.05.10 14:49:52 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:49:52 INFO  time: compiled scala_f4dd477a3a in 0.11s
+maj 10, 2024 2:49:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8516
+2024.05.10 14:50:01 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:50:01 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:50:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:50:03 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:50:18 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab4/lab43.scala
+2024.05.10 14:50:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:50:18 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:50:19 INFO  time: indexed workspace in 1.02s
+2024.05.10 14:50:25 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab4/lab43.scala
+2024.05.10 14:50:28 INFO  Cancelling compilation on scala-cli server
+2024.05.10 14:50:28 INFO  time: Imported build in 0.12s
+2024.05.10 14:50:29 INFO  time: indexed workspace in 1.36s
+2024.05.10 14:50:50 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:50:50 INFO  time: compiled scala_f4dd477a3a in 51ms
+2024.05.10 14:50:55 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala:80: error: [dialect scala3] = expected but @ found
+@main def ex42_01(): Unit =
+^
+2024.05.10 14:50:55 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:50:55 INFO  time: compiled scala_f4dd477a3a in 49ms
+2024.05.10 14:51:00 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:00 INFO  time: compiled scala_f4dd477a3a in 50ms
+2024.05.10 14:51:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:02 INFO  time: compiled scala_f4dd477a3a in 35ms
+2024.05.10 14:51:09 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:09 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 14:51:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:14 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.05.10 14:51:16 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:16 INFO  time: compiled scala_f4dd477a3a in 42ms
+2024.05.10 14:51:19 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:19 INFO  time: compiled scala_f4dd477a3a in 51ms
+2024.05.10 14:51:24 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:24 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.10 14:51:26 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:26 INFO  time: compiled scala_f4dd477a3a in 98ms
+2024.05.10 14:51:28 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:28 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.05.10 14:51:30 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:30 INFO  time: compiled scala_f4dd477a3a in 36ms
+2024.05.10 14:51:35 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:35 INFO  time: compiled scala_f4dd477a3a in 49ms
+maj 10, 2024 2:51:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9048
+2024.05.10 14:51:42 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:51:42 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:52:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:52:18 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 14:52:32 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+scala.meta.tokenizers.TokenizeException: <input>:85: error: Invalid literal number, followed by identifier character
+  val 2Di
+        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setFractionDone(LegacyScanner.scala:828)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:342)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 14:52:32 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab4/lab42.scala
+scala.meta.tokenizers.TokenizeException: <input>:85: error: Invalid literal number, followed by identifier character
+  val 2Dim
+        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setFractionDone(LegacyScanner.scala:828)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:342)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 14:52:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:52:36 INFO  time: compiled scala_f4dd477a3a in 50ms
+2024.05.10 14:52:40 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:52:40 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 14:52:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:52:45 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:52:49 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:52:49 INFO  time: compiled scala_f4dd477a3a in 57ms
+2024.05.10 14:52:52 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:52:52 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 14:52:55 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:52:55 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.05.10 14:53:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:53:08 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.05.10 14:53:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:53:39 INFO  time: compiled scala_f4dd477a3a in 59ms
+2024.05.10 14:53:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:53:45 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 14:53:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:53:51 INFO  time: compiled scala_f4dd477a3a in 56ms
+2024.05.10 14:53:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:53:53 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 14:54:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:54:07 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 14:54:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:54:14 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.05.10 14:54:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:54:17 INFO  time: compiled scala_f4dd477a3a in 53ms
+2024.05.10 14:54:19 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:54:19 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:54:23 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:54:23 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.05.10 14:54:26 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:54:26 INFO  time: compiled scala_f4dd477a3a in 99ms
+2024.05.10 14:54:34 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:54:34 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:54:37 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:54:37 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 14:55:24 INFO  compiling scala_f4dd477a3a (1 scala source)
+maj 10, 2024 2:55:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/jakubciszewski/studia/sem4/scala/.metals/.reports/metals-full/2024-05-10/r_compiler-error_(scala_f4dd477a3a)_14-55-24-808.md
+2024.05.10 14:55:24 INFO  time: compiled scala_f4dd477a3a in 95ms
+maj 10, 2024 2:55:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/jakubciszewski/studia/sem4/scala/.metals/.reports/metals-full/2024-05-10/r_compiler-error_(scala_f4dd477a3a)_14-55-25-557.md
+maj 10, 2024 2:55:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9916
+2024.05.10 14:55:26 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 14:55:26 INFO  time: compiled scala_f4dd477a3a in 0.12s
