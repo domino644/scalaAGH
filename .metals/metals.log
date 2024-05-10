@@ -7189,3 +7189,854 @@ kwi 04, 2024 12:53:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint noti
 INFO: Unsupported notification method: $/setTrace
 kwi 04, 2024 12:54:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 5812
+2024.04.04 12:59:19 INFO  Shutting down server
+2024.04.04 12:59:19 INFO  shutting down Metals
+2024.04.04 12:59:19 INFO  Shut down connection with build server.
+2024.04.04 12:59:19 INFO  Exiting server
+2024.04.04 13:17:42 INFO  Started: Metals version 1.2.2 in folders '/Users/jakubciszewski/studia/sem4/scala' for client Visual Studio Code 1.87.2.
+13:17:43.127 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- Flyway Community Edition 9.22.3 by Redgate
+13:17:43.128 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- See release notes here: https://rd.gt/416ObMi
+13:17:43.128 [pool-1-thread-4] INFO org.flywaydb.core.internal.license.VersionPrinter -- 
+13:17:43.130 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/callback' ...
+13:17:43.130 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/callback using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca ...
+13:17:43.130 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Unable to resolve location classpath:db/callback.
+13:17:43.130 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classpath resources at 'classpath:db/migration' ...
+13:17:43.130 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Determining location urls for classpath:db/migration using ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@531d72ca ...
+13:17:43.130 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning URL: jar:file:/Users/jakubciszewski/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalameta/metals_2.13/1.2.2/metals_2.13-1.2.2.jar!/db/migration
+13:17:43.133 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/
+13:17:43.133 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V1__Create_tables.sql
+13:17:43.133 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V2__Server_discovery.sql
+13:17:43.133 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V3__Jar_symbols.sql
+13:17:43.133 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Found resource: db/migration/V4__Fingerprints.sql
+13:17:43.133 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.classpath.ClassPathScanner -- Scanning for classes at classpath:db/migration
+13:17:43.135 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:17:43.135 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V3__Jar_symbols.sql
+13:17:43.135 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V4__Fingerprints.sql
+13:17:43.136 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V2__Server_discovery.sql
+13:17:43.136 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.resource.ResourceNameValidator -- Validating V1__Create_tables.sql
+13:17:43.189 [pool-1-thread-4] INFO org.flywaydb.core.FlywayExecutor -- Database: jdbc:h2:file:/Users/jakubciszewski/studia/sem4/scala/.metals/metals (H2 2.2)
+13:17:43.189 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- Driver: H2 JDBC Driver 2.2.224 (2023-09-17)
+13:17:43.189 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- DDL Transactions Supported: false
+13:17:43.190 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Schemas: 
+13:17:43.190 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.schemahistory.SchemaHistoryFactory -- Default schema: null
+13:17:43.192 [pool-1-thread-4] WARN org.flywaydb.core.internal.database.base.Database -- Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+13:17:43.193 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.callback.SqlScriptCallbackFactory -- Scanning for SQL callbacks ...
+13:17:43.193 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:17:43.197 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbValidate -- Validating migrations ...
+13:17:43.200 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:17:43.203 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+13:17:43.204 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:17:43.204 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+13:17:43.204 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+13:17:43.204 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+13:17:43.204 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V3__Jar_symbols.sql (filename: V3__Jar_symbols.sql)
+13:17:43.204 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/ (filename: )
+13:17:43.204 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V4__Fingerprints.sql (filename: V4__Fingerprints.sql)
+13:17:43.204 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V2__Server_discovery.sql (filename: V2__Server_discovery.sql)
+13:17:43.204 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.scanner.Scanner -- Filtering out resource: db/migration/V1__Create_tables.sql (filename: V1__Create_tables.sql)
+13:17:43.209 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbValidate -- Successfully validated 4 migrations (execution time 00:00.011s)
+13:17:43.210 [pool-1-thread-4] DEBUG org.flywaydb.core.internal.command.DbSchemas -- Skipping creation of existing schema: "PUBLIC"
+13:17:43.212 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Current version of schema "PUBLIC": 4
+13:17:43.214 [pool-1-thread-4] INFO org.flywaydb.core.internal.command.DbMigrate -- Schema "PUBLIC" is up to date. No migration necessary.
+13:17:43.220 [pool-1-thread-4] DEBUG org.flywaydb.core.FlywayExecutor -- Memory usage: 35 of 104M
+2024.04.04 13:17:43 WARN  No build session currently active to reload.
+2024.04.04 13:17:43 INFO  Attempting to connect to the build server...
+2024.04.04 13:17:43 INFO  Running BSP server List(/Users/jakubciszewski/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/jakubciszewski/studia/sem4/scala/.scala-build/ide-options-v2.json, /Users/jakubciszewski/studia/sem4/scala)
+2024.04.04 13:17:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jakubciszewski/studia/sem4/scala/.metals/bsp.trace.json or /Users/jakubciszewski/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.04.04 13:17:43 INFO  time: Connected to build server in 0.98s
+2024.04.04 13:17:43 INFO  Connected to Build server: scala-cli v1.1.3
+2024.04.04 13:17:45 INFO  time: indexed workspace in 1.45s
+2024.04.04 13:18:17 INFO  Shutting down server
+2024.04.04 13:18:17 INFO  shutting down Metals
+2024.04.04 13:18:17 INFO  Shut down connection with build server.
+2024.04.04 13:18:17 INFO  Exiting server
+2024.05.10 13:23:06 INFO  Started: Metals version 1.3.0 in folders '/Users/jakubciszewski/studia/sem4/scala' for client Visual Studio Code 1.89.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@23527f09]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@63b17a23]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@23527f09]
+2024.05.10 13:23:06 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.10 13:23:07 INFO  Attempting to connect to the build server...
+2024.05.10 13:23:07 INFO  Running BSP server List(/Users/jakubciszewski/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/jakubciszewski/studia/sem4/scala/.scala-build/ide-options-v2.json, /Users/jakubciszewski/studia/sem4/scala)
+2024.05.10 13:23:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jakubciszewski/studia/sem4/scala/.metals/bsp.trace.json or /Users/jakubciszewski/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.10 13:23:09 INFO  BSP server: Starting compilation server
+2024.05.10 13:23:10 INFO  time: Connected to build server in 3.42s
+2024.05.10 13:23:10 INFO  Connected to Build server: scala-cli v1.1.3
+2024.05.10 13:23:11 INFO  compiling scala_f4dd477a3a (10 scala sources)
+2024.05.10 13:23:14 INFO  time: compiled scala_f4dd477a3a in 3.23s
+2024.05.10 13:23:14 INFO  time: indexed workspace in 3.54s
+2024.05.10 13:23:21 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab3/lab34.scala
+maj 10, 2024 1:24:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.05.10 13:29:50 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab3/lab39.scala
+2024.05.10 13:29:50 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:29:50 INFO  time: compiled scala_f4dd477a3a in 0.27s
+2024.05.10 13:29:51 INFO  time: indexed workspace in 1.17s
+2024.05.10 13:29:56 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:29:56 INFO  time: compiled scala_f4dd477a3a in 0.8s
+2024.05.10 13:30:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:30:10 INFO  time: compiled scala_f4dd477a3a in 0.23s
+2024.05.10 13:30:21 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:30:21 INFO  time: compiled scala_f4dd477a3a in 62ms
+2024.05.10 13:30:26 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:30:26 INFO  time: compiled scala_f4dd477a3a in 0.21s
+2024.05.10 13:30:31 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:30:31 INFO  time: compiled scala_f4dd477a3a in 0.22s
+2024.05.10 13:30:42 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:30:42 INFO  time: compiled scala_f4dd477a3a in 0.36s
+2024.05.10 13:31:06 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:31:06 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 13:31:16 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:31:16 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 13:31:26 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:31:26 INFO  time: compiled scala_f4dd477a3a in 0.45s
+2024.05.10 13:41:08 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab3/lab310.scala
+2024.05.10 13:41:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:41:08 INFO  time: compiled scala_f4dd477a3a in 93ms
+2024.05.10 13:41:09 INFO  time: indexed workspace in 0.96s
+2024.05.10 13:41:15 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:41:15 INFO  time: compiled scala_f4dd477a3a in 0.17s
+2024.05.10 13:42:03 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:42:03 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 13:42:08 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:42:08 INFO  time: compiled scala_f4dd477a3a in 96ms
+2024.05.10 13:42:16 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:42:16 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 13:42:20 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:42:20 INFO  time: compiled scala_f4dd477a3a in 90ms
+2024.05.10 13:42:22 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:42:22 INFO  time: compiled scala_f4dd477a3a in 85ms
+2024.05.10 13:42:23 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:42:23 INFO  time: compiled scala_f4dd477a3a in 74ms
+2024.05.10 13:42:33 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:42:33 INFO  time: compiled scala_f4dd477a3a in 89ms
+2024.05.10 13:42:35 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:42:35 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 13:42:41 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:42:41 INFO  time: compiled scala_f4dd477a3a in 85ms
+2024.05.10 13:42:57 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:42:57 INFO  time: compiled scala_f4dd477a3a in 76ms
+2024.05.10 13:43:01 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:43:01 INFO  time: compiled scala_f4dd477a3a in 0.15s
+2024.05.10 13:43:16 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.05.10 13:43:16 INFO  time: compiled scala_f4dd477a3a in 0.22s
+2024.05.10 13:43:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:43:36 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.10 13:44:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:44:11 INFO  time: compiled scala_f4dd477a3a in 32ms
+2024.05.10 13:44:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:44:14 INFO  time: compiled scala_f4dd477a3a in 69ms
+2024.05.10 13:46:57 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:46:57 INFO  time: compiled scala_f4dd477a3a in 32ms
+2024.05.10 13:46:59 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:46:59 INFO  time: compiled scala_f4dd477a3a in 0.19s
+2024.05.10 13:47:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:47:08 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.05.10 13:47:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:47:11 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.05.10 13:47:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:47:22 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.05.10 13:47:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:47:25 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 13:47:32 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:47:32 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 13:47:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:47:36 INFO  time: compiled scala_f4dd477a3a in 0.24s
+2024.05.10 13:47:40 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:47:40 INFO  time: compiled scala_f4dd477a3a in 0.19s
+2024.05.10 13:47:41 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:47:41 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.10 13:47:45 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:47:45 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.10 13:47:48 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:47:48 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 13:47:52 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:47:52 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 13:48:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:48:02 INFO  time: compiled scala_f4dd477a3a in 97ms
+2024.05.10 13:48:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:48:11 INFO  time: compiled scala_f4dd477a3a in 88ms
+2024.05.10 13:48:18 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:48:18 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.10 13:48:19 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:48:19 INFO  time: compiled scala_f4dd477a3a in 25ms
+2024.05.10 13:48:23 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:48:23 INFO  time: compiled scala_f4dd477a3a in 85ms
+2024.05.10 13:48:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:48:27 INFO  time: compiled scala_f4dd477a3a in 85ms
+2024.05.10 13:48:29 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:48:29 INFO  time: compiled scala_f4dd477a3a in 78ms
+2024.05.10 13:49:03 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab3/lab311.scala
+2024.05.10 13:49:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:49:03 INFO  time: compiled scala_f4dd477a3a in 65ms
+2024.05.10 13:49:04 INFO  time: indexed workspace in 1.12s
+2024.05.10 13:49:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:49:10 INFO  time: compiled scala_f4dd477a3a in 0.16s
+maj 10, 2024 1:50:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1397
+maj 10, 2024 1:50:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab3/p1/ex07.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:732)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:729)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:639)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+
+2024.05.10 13:53:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:53:39 INFO  time: compiled scala_f4dd477a3a in 43ms
+2024.05.10 13:53:39 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab3/lab311.scala
+2024.05.10 13:53:42 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab3/lab311.scala
+2024.05.10 13:53:42 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab3/lab311.scala
+2024.05.10 13:54:51 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab3/lab311.scala
+2024.05.10 13:55:08 WARN  Could not load snapshot text for /Users/jakubciszewski/studia/sem4/scala/lab3/lab311.scala
+2024.05.10 13:55:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:55:10 INFO  time: compiled scala_f4dd477a3a in 94ms
+2024.05.10 13:56:43 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:56:43 INFO  time: compiled scala_f4dd477a3a in 53ms
+2024.05.10 13:56:44 INFO  time: indexed workspace in 0.93s
+2024.05.10 13:56:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:56:51 INFO  time: compiled scala_f4dd477a3a in 54ms
+maj 10, 2024 1:57:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab3/CC.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:732)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:729)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:639)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+
+2024.05.10 13:58:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:58:06 INFO  time: compiled scala_f4dd477a3a in 0.12s
+maj 10, 2024 1:58:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1516
+maj 10, 2024 1:58:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab3/CC%24.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:732)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:729)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:639)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+
+maj 10, 2024 1:58:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab3/CC%24.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:732)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:729)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:639)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+
+maj 10, 2024 1:58:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab3/CC.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:732)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:729)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:639)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+
+maj 10, 2024 1:58:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab3/CC.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:732)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:729)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:639)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+
+maj 10, 2024 1:58:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab3/CC%24.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:732)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:729)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:639)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+
+maj 10, 2024 1:58:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab3/CC.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:732)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:729)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:639)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+
+2024.05.10 13:58:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:58:51 INFO  time: compiled scala_f4dd477a3a in 33ms
+2024.05.10 13:58:51 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab3/lab312.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: Non-zero integral values may not have a leading zero.
+object 01
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 13:58:51 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab3/lab312.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: Non-zero integral values may not have a leading zero.
+object 01:
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 13:58:52 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab3/lab312.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: Non-zero integral values may not have a leading zero.
+object 01:
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 13:58:53 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:58:53 INFO  time: compiled scala_f4dd477a3a in 24ms
+2024.05.10 13:58:53 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab3/lab312.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: Non-zero integral values may not have a leading zero.
+object 01:
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 13:58:53 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab3/lab312.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: Non-zero integral values may not have a leading zero.
+object 01:
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 13:58:54 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab3/lab312.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: Non-zero integral values may not have a leading zero.
+object 01:
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 13:58:54 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab3/lab312.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: Non-zero integral values may not have a leading zero.
+object 01:
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 13:58:54 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab3/lab312.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: Non-zero integral values may not have a leading zero.
+object 01:
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 13:58:55 ERROR scalafmt: /Users/jakubciszewski/studia/sem4/scala/lab3/lab312.scala:4: error: Non-zero integral values may not have a leading zero.
+object 01:
+       ^
+2024.05.10 13:58:55 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:58:55 INFO  time: compiled scala_f4dd477a3a in 31ms
+2024.05.10 13:58:55 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab3/lab312.scala
+scala.meta.tokenizers.TokenizeException: <input>:4: error: Non-zero integral values may not have a leading zero.
+object 01:
+       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInt$1(LegacyScanner.scala:847)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:858)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchZero$1(LegacyScanner.scala:336)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:339)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.10 13:59:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:59:06 INFO  time: compiled scala_f4dd477a3a in 0.1s
+maj 10, 2024 1:59:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1601
+maj 10, 2024 1:59:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "class:/Users/jakubciszewski/studia/sem4/scala/lab3/O1%24.class"
+  ]
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.FileSystemNotFoundException: Provider "class" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:131)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:187)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:732)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:729)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:639)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:43)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+
+maj 10, 2024 1:59:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1606
+2024.05.10 13:59:24 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.10 13:59:24 INFO  time: compiled scala_f4dd477a3a in 0.12s
