@@ -33,3 +33,11 @@ classes/
 
 # Visual Studio Code
 .vscode
+
+#metals
+.metals
+.bsp
+.scala_build
+
+#vscode
+.vscode
