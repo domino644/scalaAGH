@@ -37,7 +37,7 @@ classes/
 #metals
 .metals
 .bsp
-.scala_build
+.scala-build
 
 #vscode
 .vscode
