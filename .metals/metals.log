@@ -8933,3 +8933,339 @@ WARNING: Unmatched cancel notification for request id 1001
 2024.05.13 13:51:19 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab4/lab471.scala
 2024.05.13 13:51:21 INFO  compiling scala_f4dd477a3a (1 scala source)
 2024.05.13 13:51:21 INFO  time: compiled scala_f4dd477a3a in 0.23s
+2024.05.13 14:30:43 INFO  Shutting down server
+2024.05.13 14:30:43 INFO  shutting down Metals
+2024.05.13 14:30:43 INFO  Shut down connection with build server.
+2024.05.13 14:30:43 INFO  Exiting server
+2024.05.14 11:17:45 INFO  Started: Metals version 1.3.0 in folders '/Users/jakubciszewski/studia/sem4/scala' for client Visual Studio Code 1.89.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@3f368ae9]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@3a5d8963]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@3f368ae9]
+2024.05.14 11:17:45 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.14 11:17:45 INFO  Attempting to connect to the build server...
+2024.05.14 11:17:45 INFO  Running BSP server List(/Users/jakubciszewski/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/jakubciszewski/studia/sem4/scala/.scala-build/ide-options-v2.json, /Users/jakubciszewski/studia/sem4/scala)
+2024.05.14 11:17:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jakubciszewski/studia/sem4/scala/.metals/bsp.trace.json or /Users/jakubciszewski/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.14 11:17:47 INFO  time: Connected to build server in 1.47s
+2024.05.14 11:17:47 INFO  Connected to Build server: scala-cli v1.1.3
+2024.05.14 11:17:52 INFO  no build target found for /Users/jakubciszewski/studia/sem4/scala/lab4/lab46.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.14 11:17:52 INFO  Shutting down server
+2024.05.14 11:17:52 INFO  shutting down Metals
+2024.05.14 11:17:52 INFO  Shut down connection with build server.
+2024.05.14 11:17:52 INFO  Exiting server
+2024.05.16 12:47:30 INFO  Started: Metals version 1.3.0 in folders '/Users/jakubciszewski/studia/sem4/scala' for client Visual Studio Code 1.89.1.
+SLF4J: Class path contains multiple SLF4J providers.
+SLF4J: Found provider [scribe.slf4j.ScribeServiceProvider@2efd9e2e]
+SLF4J: Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@1d3a34b5]
+SLF4J: See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2efd9e2e]
+2024.05.16 12:47:30 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.05.16 12:47:31 INFO  Attempting to connect to the build server...
+2024.05.16 12:47:31 INFO  Running BSP server List(/Users/jakubciszewski/Library/Application Support/Coursier/bin/.scala-cli.aux, bsp, --json-options, /Users/jakubciszewski/studia/sem4/scala/.scala-build/ide-options-v2.json, /Users/jakubciszewski/studia/sem4/scala)
+2024.05.16 12:47:31 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jakubciszewski/studia/sem4/scala/.metals/bsp.trace.json or /Users/jakubciszewski/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.05.16 12:47:32 INFO  BSP server: Starting compilation server
+2024.05.16 12:47:34 INFO  time: Connected to build server in 2.82s
+2024.05.16 12:47:34 INFO  Connected to Build server: scala-cli v1.1.3
+2024.05.16 12:47:38 INFO  no build target found for /Users/jakubciszewski/studia/sem4/scala/lab4/lab46.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.05.16 12:47:40 INFO  time: indexed workspace in 1.33s
+2024.05.16 12:50:49 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab5/zad1.scala
+2024.05.16 12:50:49 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:50:50 INFO  time: indexed workspace in 1.08s
+2024.05.16 12:50:55 INFO  time: compiled scala_f4dd477a3a in 6.25s
+maj 16, 2024 12:50:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+2024.05.16 12:50:55 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:50:56 WARN  Could not find semantic tokens for: file:///Users/jakubciszewski/studia/sem4/scala/lab5/zad1.scala
+2024.05.16 12:50:55 INFO  time: compiled scala_f4dd477a3a in 0.53s
+2024.05.16 12:50:57 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:50:57 INFO  time: compiled scala_f4dd477a3a in 51ms
+2024.05.16 12:51:00 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:00 INFO  time: compiled scala_f4dd477a3a in 68ms
+2024.05.16 12:51:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:02 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.05.16 12:51:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:06 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.05.16 12:51:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:08 INFO  time: compiled scala_f4dd477a3a in 61ms
+2024.05.16 12:51:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:11 INFO  time: compiled scala_f4dd477a3a in 54ms
+2024.05.16 12:51:20 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:20 INFO  time: compiled scala_f4dd477a3a in 48ms
+2024.05.16 12:51:23 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:23 INFO  time: compiled scala_f4dd477a3a in 0.23s
+2024.05.16 12:51:24 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:24 INFO  time: compiled scala_f4dd477a3a in 52ms
+2024.05.16 12:51:29 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:29 INFO  time: compiled scala_f4dd477a3a in 0.15s
+2024.05.16 12:51:29 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:29 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.16 12:51:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:39 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.16 12:51:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:51 INFO  time: compiled scala_f4dd477a3a in 0.15s
+2024.05.16 12:51:54 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:51:54 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.16 12:52:04 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:52:04 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.16 12:52:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:52:07 INFO  time: compiled scala_f4dd477a3a in 0.35s
+2024.05.16 12:52:23 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab5/zad1.scala
+scala.meta.tokenizers.TokenizeException: <input>:5: error: unclosed comment
+   /*...*
+   ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.16 12:52:23 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab5/zad1.scala
+scala.meta.tokenizers.TokenizeException: <input>:5: error: unclosed comment
+   /*..
+   ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.16 12:52:23 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab5/zad1.scala
+scala.meta.tokenizers.TokenizeException: <input>:5: error: unclosed comment
+   /*
+   ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:55)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:74)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:316)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.16 12:52:26 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:52:26 INFO  time: compiled scala_f4dd477a3a in 41ms
+2024.05.16 12:52:48 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:52:48 INFO  time: compiled scala_f4dd477a3a in 0.26s
+2024.05.16 12:52:49 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:52:49 INFO  time: compiled scala_f4dd477a3a in 64ms
+2024.05.16 12:52:50 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:52:50 INFO  time: compiled scala_f4dd477a3a in 0.18s
+2024.05.16 12:52:54 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:52:54 INFO  time: compiled scala_f4dd477a3a in 78ms
+2024.05.16 12:52:57 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:52:57 INFO  time: compiled scala_f4dd477a3a in 58ms
+2024.05.16 12:53:00 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:00 INFO  time: compiled scala_f4dd477a3a in 51ms
+2024.05.16 12:53:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:07 INFO  time: compiled scala_f4dd477a3a in 47ms
+2024.05.16 12:53:11 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:11 INFO  time: compiled scala_f4dd477a3a in 59ms
+2024.05.16 12:53:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:14 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.16 12:53:19 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:19 INFO  time: compiled scala_f4dd477a3a in 0.19s
+2024.05.16 12:53:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:22 INFO  time: compiled scala_f4dd477a3a in 59ms
+2024.05.16 12:53:23 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:23 INFO  time: compiled scala_f4dd477a3a in 33ms
+2024.05.16 12:53:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:27 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.05.16 12:53:38 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:38 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.16 12:53:44 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:44 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.05.16 12:53:47 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:47 INFO  time: compiled scala_f4dd477a3a in 90ms
+2024.05.16 12:53:54 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:54 INFO  time: compiled scala_f4dd477a3a in 90ms
+2024.05.16 12:53:57 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:53:57 INFO  time: compiled scala_f4dd477a3a in 41ms
+2024.05.16 12:54:00 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:54:00 INFO  time: compiled scala_f4dd477a3a in 53ms
+2024.05.16 12:54:02 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:54:02 INFO  time: compiled scala_f4dd477a3a in 40ms
+2024.05.16 12:54:04 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:54:04 INFO  time: compiled scala_f4dd477a3a in 83ms
+2024.05.16 12:54:06 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:54:06 INFO  time: compiled scala_f4dd477a3a in 77ms
+2024.05.16 12:54:14 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:54:14 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.05.16 12:54:16 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:54:16 INFO  time: compiled scala_f4dd477a3a in 86ms
+2024.05.16 12:54:21 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:54:21 INFO  time: compiled scala_f4dd477a3a in 82ms
+2024.05.16 12:54:29 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:54:29 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.16 12:54:31 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:54:31 INFO  time: compiled scala_f4dd477a3a in 88ms
+2024.05.16 12:54:33 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:54:33 INFO  time: compiled scala_f4dd477a3a in 67ms
+2024.05.16 12:54:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:54:58 INFO  time: compiled scala_f4dd477a3a in 32ms
+maj 16, 2024 12:55:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 929
+2024.05.16 12:55:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:03 INFO  time: compiled scala_f4dd477a3a in 78ms
+2024.05.16 12:55:04 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:04 INFO  time: compiled scala_f4dd477a3a in 67ms
+2024.05.16 12:55:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:10 INFO  time: compiled scala_f4dd477a3a in 33ms
+2024.05.16 12:55:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:17 INFO  time: compiled scala_f4dd477a3a in 33ms
+2024.05.16 12:55:25 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:25 INFO  time: compiled scala_f4dd477a3a in 41ms
+2024.05.16 12:55:31 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:31 INFO  time: compiled scala_f4dd477a3a in 81ms
+2024.05.16 12:55:35 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:35 INFO  time: compiled scala_f4dd477a3a in 25ms
+2024.05.16 12:55:39 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:39 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.16 12:55:43 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:43 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.05.16 12:55:46 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:46 INFO  time: compiled scala_f4dd477a3a in 33ms
+2024.05.16 12:55:50 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:50 INFO  time: compiled scala_f4dd477a3a in 29ms
+2024.05.16 12:55:50 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:50 INFO  time: compiled scala_f4dd477a3a in 56ms
+2024.05.16 12:55:50 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:50 INFO  time: compiled scala_f4dd477a3a in 34ms
+2024.05.16 12:55:55 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:55 INFO  time: compiled scala_f4dd477a3a in 27ms
+2024.05.16 12:55:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:55:58 INFO  time: compiled scala_f4dd477a3a in 40ms
+2024.05.16 12:56:00 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:56:00 INFO  time: compiled scala_f4dd477a3a in 72ms
+2024.05.16 12:56:12 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:56:12 INFO  time: compiled scala_f4dd477a3a in 79ms
+2024.05.16 12:56:13 ERROR Failed to tokenize input for semantic tokens for /Users/jakubciszewski/studia/sem4/scala/lab5/zad1.scala
+scala.meta.tokenizers.TokenizeException: <input>:34: error: Invalid literal number, followed by identifier character
+  2mai
+   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:834)
+	at scala.meta.internal.tokenizers.LegacyScanner.setNumberInteger$1(LegacyScanner.scala:857)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:875)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:342)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:214)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:982)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:16)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:16)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:331)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:597)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2024.05.16 12:56:22 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:56:22 INFO  time: compiled scala_f4dd477a3a in 43ms
+2024.05.16 12:56:49 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:56:49 INFO  time: compiled scala_f4dd477a3a in 37ms
+2024.05.16 12:56:51 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:56:51 INFO  time: compiled scala_f4dd477a3a in 0.18s
+2024.05.16 12:56:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:56:58 INFO  time: compiled scala_f4dd477a3a in 0.15s
+2024.05.16 12:57:05 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:05 INFO  time: compiled scala_f4dd477a3a in 39ms
+2024.05.16 12:57:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:07 INFO  time: compiled scala_f4dd477a3a in 96ms
+2024.05.16 12:57:10 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:10 INFO  time: compiled scala_f4dd477a3a in 38ms
+2024.05.16 12:57:12 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:12 INFO  time: compiled scala_f4dd477a3a in 44ms
+2024.05.16 12:57:27 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:27 INFO  time: compiled scala_f4dd477a3a in 85ms
+2024.05.16 12:57:30 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:30 INFO  time: compiled scala_f4dd477a3a in 46ms
+2024.05.16 12:57:32 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:32 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.05.16 12:57:40 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:40 INFO  time: compiled scala_f4dd477a3a in 0.1s
+2024.05.16 12:57:42 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:42 INFO  time: compiled scala_f4dd477a3a in 81ms
+2024.05.16 12:57:47 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:47 INFO  time: compiled scala_f4dd477a3a in 45ms
+2024.05.16 12:57:50 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:50 INFO  time: compiled scala_f4dd477a3a in 89ms
+2024.05.16 12:57:52 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:52 INFO  time: compiled scala_f4dd477a3a in 82ms
+2024.05.16 12:57:56 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:56 INFO  time: compiled scala_f4dd477a3a in 87ms
+2024.05.16 12:57:58 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:57:58 INFO  time: compiled scala_f4dd477a3a in 87ms
+2024.05.16 12:58:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:58:03 INFO  time: compiled scala_f4dd477a3a in 90ms
+2024.05.16 12:58:07 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:58:07 INFO  time: compiled scala_f4dd477a3a in 73ms
+2024.05.16 12:58:08 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.05.16 12:58:08 INFO  time: compiled scala_f4dd477a3a in 87ms
